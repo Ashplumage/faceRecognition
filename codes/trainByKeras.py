@@ -151,7 +151,7 @@ class Model:
         self.model.summary()
 
     # 训练模型
-    def train(self, dataset, batch_size=20, nb_epoch=1, data_augmentation=True):
+    def train(self, dataset, batch_size=20, nb_epoch=8, data_augmentation=True):
         sgd = SGD(lr=0.01, decay=1e-6,
                   momentum=0.9, nesterov=True)  # 采用SGD+momentum的优化器进行训练，首先生成一个优化器对象
         self.model.compile(loss='categorical_crossentropy',
