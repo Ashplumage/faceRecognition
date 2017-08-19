@@ -17,8 +17,8 @@
 	<li>trainByKeras.py</li>
 	<li>face_recognize.py</li>
 </ul>
-<li>testdata<li>
-<li>traindata<li>
+<li>testdata</li>
+<li>traindata</li>
 </ul>
 </body>
 </html>
